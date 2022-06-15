@@ -1,5 +1,5 @@
 <template>
-  <q-page padding>
+  <q-page padding :class="{ 'bg-grey-1': !$q.dark.mode }">
     <div class="row">
       <div class="col-xs-12 q-pa-lg">
         <q-toolbar class="q-px-lg">
