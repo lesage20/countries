@@ -28,13 +28,13 @@ Want some support on the challenge? Join our Slack community and ask questions i
 
 ## Live Demo 
 
-- [Vercel]([https://countries-one-eta.vercel.app])
+- [Vercel](https://countries-one-eta.vercel.app)
 
 ## What I learned 
 During this challenge I learned how to build multiple themes with dark and light modes. it was fun
 
 
 ## Socials
-[LinkedIn]([https://www.linkedin.com/in/ange-aymar-zanou-0b6165183])
+[LinkedIn](https://www.linkedin.com/in/ange-aymar-zanou-0b6165183)
 
 **Got fun building!** 🚀
