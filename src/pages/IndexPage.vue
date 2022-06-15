@@ -110,6 +110,8 @@ function getCountries() {
     })
     .catch((err) => {
       console.dir(err);
+      dialog.hide()
+
     });
 }
 
