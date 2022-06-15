@@ -1,6 +1,6 @@
 # Frontend Mentor - 
 
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the REST Countries API with color theme switcher challenge](./src/assets/design/desktop-preview.jpg)
 
 
 ## The challenge
