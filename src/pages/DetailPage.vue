@@ -92,15 +92,16 @@ function getCountries() {
     title: "Récuperation de données",
     progress: {
       spinner: QSpinnerFacebook,
+      color: "primary",
     },
     persistent: true,
     ok: false,
+    class: $q.dark.mode ? "bg-dark" : "",
   });
   axios
     .get("https://restcountries.com/v3.1/name/" + route.params.name)
     .then((res) => {
       selected.country = res.data[0];
-      console.log(selected.country);
       dialog.hide();
     })
     .catch((err) => {

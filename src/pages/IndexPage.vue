@@ -97,8 +97,11 @@ function getCountries() {
     title: "Récuperation de données",
     progress: {
       spinner: QSpinnerFacebook,
+      color: "primary",
     },
     persistent: true,
+    class: $q.dark.mode ? "bg-dark" : "",
+
     ok: false,
   });
   axios
@@ -110,8 +113,7 @@ function getCountries() {
     })
     .catch((err) => {
       console.dir(err);
-      dialog.hide()
-
+      dialog.hide();
     });
 }
 
