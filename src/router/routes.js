@@ -11,6 +11,12 @@ const routes = [
       },
     ],
   },
+  {
+    path: "/calc/",
+    component: () => import("layouts/CalcLayout.vue"),
+    children: [{ path: "", component: () => import("pages/CalcPage.vue") }],
+    name: "calculator",
+  },
 
   // Always leave this as last one,
   // but you can also remove it
